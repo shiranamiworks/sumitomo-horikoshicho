@@ -1,12 +1,12 @@
 <footer class="footer">
   <div class="entry">
     <div class="container">
-    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=entry"></script>
-    <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=horikoshicho&LINK=entry"></script>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=kansai&PROP_CD=horikoshicho"></script>
       <div class="entry-tel">
-        <p>お問い合わせは住友不動産<br class="sp">「シティタワー錦糸公園販売準備室」</p>
+        <p>お問い合わせは住友不動産<br class="sp">「シティハウス天王寺販売準備室」</p>
         <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-839-861</span></a><br>
-        <a href="mailto:ct-kinshikouen@j.sumitomo-rd.co.jp" class="disabled">ct-kinshikouen@j.sumitomo-rd.co.jp</a>
+        <a href="mailto:ct-horikoshicho@j.sumitomo-rd.co.jp" class="disabled">ct-horikoshicho@j.sumitomo-rd.co.jp</a>
       </div>
       <p class="entry-info">営業時間／平日 10時～18時／土・日・祝日 10時～18時<br class="sp">（火曜・水曜定休、年末年始は休業）</p>
     </div>
@@ -31,9 +31,9 @@
         <li class="outline"><a href="javascript:outline()">物件概要</a></li>
         <!-- <li class="blog"><a href="javascript:blog();">マンション情報ブログ</a></li> -->
         <li class="blog">BLOG</li>
-        <li class="faq"><a href="/shuto/kinshikouen/faq.cgi" target="_blank">FAQ</a></li>
+        <li class="faq"><a href="/kansai/horikoshicho/faq.cgi" target="_blank">FAQ</a></li>
         <li class="sitemap"><a href="<?= $page_settings["directory_pos"]  ?>sitemap.html">サイトマップ</a></li>
-        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=footer"></script>
+        <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=horikoshicho&LINK=footer"></script>
       </ul>
     </div>
   </nav><!-- footer-menu -->
@@ -43,7 +43,7 @@
       <ul class="footer-recommend__menu f-min">
         <li>錦糸町 マンション</li>
         <li>錦糸町 新築マンション</li>
-        <li>シティタワー錦糸公園</li>
+        <li>シティハウス天王寺</li>
         <li>東京都墨田区</li>
         <li>東京メトロ半蔵門線</li>
         <li>錦糸町駅</li>
@@ -54,7 +54,7 @@
 
       <!-- おススメ物件 -->
       <p class="footer-recommend__ttl">おすすめ物件</p>
-      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=shuto&PROP_CD=kinshikouen"></script>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_recommend.cgi?AREA_CD=kansai&PROP_CD=horikoshicho"></script>
 			<!-- //おススメ物件 -->
     </div>
   </div>
@@ -111,7 +111,7 @@
   </div>
   <div class="footer-btn">
     <div class="float-btn">
-      <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=float"></script>
+      <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=horikoshicho&LINK=float"></script>
     </div>
     <div class="fixed-btn">
       <a href="<?= $site_setting["tel_link"] ?>">
@@ -120,7 +120,7 @@
       <a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">
         <p><img src="<?= $page_settings["directory_pos"]  ?>images/common/icn_map.png" alt="現地案内図"><br>現地案内図</p>
       </a>
-      <a href="/shuto/kinshikouen/catalog.cgi" target="_blank" class="fixed-btn__mail">
+      <a href="/kansai/horikoshicho/catalog.cgi" target="_blank" class="fixed-btn__mail">
         <p><img src="./images/common/icn_mail.png" alt="資料請求"><br>資料請求</p>
       </a>
       <a href="javascript:openfraijo();" class="fixed-btn__btn002">
@@ -139,7 +139,7 @@
     </div><!-- fixed-btn -->
 
     <div id="spfraijo" class="sp">
-    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=shuto&PROP_CD=kinshikouen&LINK=sp-footer"></script>
+    <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=horikoshicho&LINK=sp-footer"></script>
 		</div>
   </div>
 </footer>
@@ -152,7 +152,7 @@
 
 
 <!-- アクセス履歴タグ挿入 begin -->
-<img src="/bukken_access.cgi?AREA_CD=shuto&PROP_CD=kinshikouen" width="1" height="1" id="adtag">
+<img src="/bukken_access.cgi?AREA_CD=kansai&PROP_CD=horikoshicho" width="1" height="1" id="adtag">
 <!-- アクセス履歴タグ挿入 end -->
 
 <!-- Google Tag Manager begin -->
