@@ -21,7 +21,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティタワー錦糸公園｜錦糸町 マンション｜トップ</a></li>
+      <li><a href="./index.html">シティハウス天王寺｜天王寺 マンション｜トップ</a></li>
       <li><a href="./location01.html">ロケーション</a></li>
       <li><p>心地よい錦糸町ライフ</p></li>
     </ul>
