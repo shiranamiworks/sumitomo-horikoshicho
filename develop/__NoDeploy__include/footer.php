@@ -4,11 +4,11 @@
     <script type="text/javascript" src="/bukken_manage/bukken_manage_entry_button.cgi?AREA_CD=kansai&PROP_CD=horikoshicho&LINK=entry"></script>
     <script type="text/javascript" src="/bukken_manage/bukken_manage_link.cgi?AREA_CD=kansai&PROP_CD=horikoshicho"></script>
       <div class="entry-tel">
-        <p>お問い合わせは住友不動産<br class="sp">「シティハウス天王寺販売準備室」</p>
-        <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-839-861</span></a><br>
-        <a href="mailto:ct-horikoshicho@j.sumitomo-rd.co.jp" class="disabled">ct-horikoshicho@j.sumitomo-rd.co.jp</a>
+        <p>お問い合わせは住友不動産<br class="sp">「総合マンションギャラリー天王寺館」</p>
+        <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><img src="./images/common/icn_entry-tel.png" alt=""><span class="f-en">0120-056-345</span></a><br>
+        <a href="mailto:horikoshicho@j.sumitomo-rd.co.jp" class="disabled">horikoshicho@j.sumitomo-rd.co.jp</a>
       </div>
-      <p class="entry-info">営業時間／平日 10時～18時／土・日・祝日 10時～18時<br class="sp">（火曜・水曜定休、年末年始は休業）</p>
+      <p class="entry-info">営業時間／平日 11:00～19:00／土・日・祝日 10:00～18:00<br class="sp">（火曜・水曜日定休、年末年始は休業）</p>
     </div>
   </div><!-- / entry -->
 
@@ -41,15 +41,15 @@
   <div class="footer-recommend">
     <div class="container">
       <ul class="footer-recommend__menu f-min">
-        <li>錦糸町 マンション</li>
-        <li>錦糸町 新築マンション</li>
+        <li>天王寺 マンション</li>
+        <li>天王寺 新築マンション</li>
         <li>シティハウス天王寺</li>
-        <li>東京都墨田区</li>
-        <li>東京メトロ半蔵門線</li>
-        <li>錦糸町駅</li>
+        <li>大阪府大阪市天王寺区</li>
+        <li>OsakaMetro谷町線</li>
+        <li>天王寺</li>
         <li>新築分譲マンション</li>
         <li>住友不動産</li>
-        <li>すみふ錦糸町</li>
+        <li>すみふ 堀越町</li>
       </ul>
 
       <!-- おススメ物件 -->
