@@ -56,16 +56,37 @@
     position: relative;
     .annotation {
       position: absolute;
-      bottom: 0;
-      right: 0;
       text-align: right;
       font-size: 10px;
       line-height: 1.4;
       &.white {
         color: #fff;
-        background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
-        padding: 4px 8px 4px 40px;
+        text-shadow: 0 0 3px #000;
       }
+    }
+    .caption01{
+      top: 39%;
+      right: 45%;
+    }
+    .caption02{
+      top: 39%;
+      right: 0;
+    }
+    .caption03{
+      top: 63.5%;
+      right: 53%;
+    }
+    .caption04{
+      top: 63.5%;
+      right: 0;
+    }
+    .caption05{
+      top: 98%;
+      right: 65.5%;
+    }
+    .caption06{
+      top: 98%;
+      right: 0;
     }
   }
 
@@ -89,69 +110,74 @@
   }
   .main-visual {
     position: relative;
+    line-height: 0;
     border: none;
-    background: #f5f7f8;
+    .page-lead {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+      color: #fff;
+      font-size: 54px;
+      width: 90%;
+    }
+    .image img{
+      width: 100%;
+    }
   }
   .sections {
+    background-color: #B4A064;
+    line-height: 0;
+    .section-title {
+      font-size: 27px;
+      text-align: center;
+      color: #afa471;
+      letter-spacing: 0.25em;
+      margin-bottom: 140px;
+    }
     .inner {
       margin: 0 auto;
-      width: 84%;
-      max-width: 1000px;
-    }
-    .image {
-      position: relative;
-    }
-    .annotation {
-      font-size: 10px;
-      text-align: right;
-    }
-  } //sections
-  .intro {
-    text-align: center;
-    background: #f5f7f8;
-    background-size: cover;
-    padding: 40px 0;
-    .title {
-      font-size: 72px;
-      line-height: 1.6;
-      letter-spacing: 0.15em;
-      color: #49616d;
+      width: 70%;
+      max-width: 1030px;
     }
     .text {
       font-size: 22px;
-      line-height: 1;
-      letter-spacing: 0.12em;
-      color: #49616d;
+      line-height: 2.1;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 50px;
+      &.txt02{
+        font-size: 16px;
+      }
     }
-    .name {
-      font-size: 32px;
-      color: #49616d;
-      margin-top: -10px;
-      margin-bottom: 40px;
+    .img {
+      padding-top: 45px;
+      padding-bottom: 8px;
     }
-    .num {
-      font-size: 60px;
+    .annotation {
+      font-size: 10px;
+      text-align: left;
+      color: #fff;
+    }
+  }//sections
+  .intro {
+    background-color: #000f;
+    padding-bottom: 180px;
+    color: #fff;
+    .title{
+      margin-bottom: 105px;
+      max-width: 700px;;
     }
     .lead {
-      font-size: 16px;
-      line-height: 2;
-      color: #49616d;
+      font-size: 72px;
+      color: #B4A064;
+      text-align: center;
+      padding-bottom: 40px;
+      padding-top: 200px;
+      line-height: 1.5;
     }
-
-    li {
-      text-align: left;
-      float: left;
-      width: 47%;
-    }
-    li:last-child {
-      float: right;
-      width: 53%;
-      margin-top: 14%;
-    }
-    .img01 {
-      margin-top: 40px;
-    }
-  } //intro
+  }//intro
 
   @media screen and (max-width: 1300px) {
   }
@@ -175,30 +201,57 @@
     pc {
       display: none;
     }
-    .top-mv__slide figure .annotation.white{
-      bottom: 25%;
+    .image {
+      .caption01{
+        top: 32%;
+        right: 45%;
+      }
+      .caption02{
+        top: 32%;
+        right: 1%;
+      }
+      .caption03{
+        top: 56.5%;
+        right: 53%;
+      }
+      .caption04{
+        top: 56.5%;
+        right: 1%;
+      }
+      .caption05{
+        top: 91%;
+        right: 65.5%;
+      }
+      .caption06{
+        top: 91%;
+        right: 1%;
+      }
+    }
+    .sections .inner{
+      width: 94%;
     }
     .intro {
       text-align: left;
+      padding-bottom: 90px;
       .title {
         font-size: 32px;
         margin-bottom: 10px;
       }
-      .text {
-        font-size: 18px;
-        margin-bottom: 10px;
-      }
-      .name {
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
-      .num {
-        font-size: 40px;
-      }
       .lead {
-        font-size: 16px;
+        font-size: 27px;
+        padding-top: 100px;
       }
-
+      .section-title{
+        font-size: 20px;
+        margin-bottom: 70px;
+      }
+      .text {
+        font-size: 20px;
+        margin-bottom: 25px;
+        &.txt02{
+          font-size: 14px;
+        }
+      }
       li {
         float: none;
         width: 100%;
