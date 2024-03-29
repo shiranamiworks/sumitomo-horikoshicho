@@ -1,0 +1,427 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+#adtag {
+  opacity: 0;
+}
+
+.breadcrumb {
+  padding: 20px 2%;
+  border-top: 1px solid #f1e9dc;
+  border-bottom: 1px solid #f1e9dc;
+  background: #fff;
+  color: #000;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  color: #888;
+}
+
+.breadcrumb ul li a {
+  color: #000;
+}
+
+.breadcrumb ul li:not(:last-child) a::after,
+.breadcrumb ul li:not(:last-child) p::after {
+  content: " ＞ ";
+  display: inline-block;
+}
+
+.annotation-area {
+  background: #fff;
+  color: #797979;
+  padding: 40px 0;
+}
+
+.page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 10px;
+  line-height: 1.8;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+
+.garamond {
+  font-family: "adobe-garamond-pro", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#access main img {
+  max-width: 100%;
+}
+#access .image {
+  position: relative;
+}
+#access .image .annotation {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  text-align: right;
+  font-size: 10px;
+}
+#access .image .annotation.white {
+  color: #fff;
+  text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+#access main {
+  color: #000;
+  font-family: "RyuminPro", serif;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#access sup {
+  font-size: 10px;
+  vertical-align: super;
+}
+#access sp {
+  display: none;
+}
+#access pc {
+  display: block;
+}
+#access .page-annotation {
+  font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
+}
+#access .main-visual {
+  position: relative;
+  border: none;
+}
+#access .sections .inner {
+  margin: 0 auto;
+  width: 84%;
+  max-width: 1200px;
+}
+#access .sections .image {
+  position: relative;
+}
+#access .sections .annotation {
+  font-size: 10px;
+  text-align: right;
+}
+#access .sections .column02 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 48%;
+  margin-right: 2%;
+}
+#access .sections .column02 li:nth-child(2n),
+#access .sections .column02 li:last-child {
+  margin-right: auto;
+}
+#access .sections .column03 li {
+  vertical-align: top;
+  display: inline-block;
+  width: 32%;
+  margin-right: 1%;
+}
+#access .sections .column03 li:nth-child(3n),
+#access .sections .column03 li:last-child {
+  margin-right: auto;
+}
+#access .intro {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -2px;
+}
+#access .intro .bg01 {
+  background: #000;
+  padding: 140px 0;
+}
+#access .intro .inner {
+  max-width: 1000px;
+}
+#access .intro .tit {
+  font-size: 40px;
+  letter-spacing: 0.2em;
+  line-height: 1.8;
+  color: #fff;
+  margin-bottom: 50px;
+}
+#access .intro .lead {
+  font-size: 16px;
+  line-height: 2;
+  color: #fff;
+}
+#access .intro .bg02 {
+  background: url(../images/access/bg02.jpg);
+  background-size: cover;
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+#access .intro .text {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+#access .intro .sub {
+  font-size: 16px;
+  color: #3e4856;
+  margin-bottom: 50px;
+}
+#access .intro .lead01 {
+  text-align: left;
+  color: #000;
+}
+#access .intro .images.img01 {
+  width: 90%;
+  max-width: 640px;
+  margin: 50px auto;
+}
+#access .intro .mini {
+  text-align: left;
+  font-size: 11px;
+  line-height: 1.5;
+}
+#access .train {
+  text-align: center;
+  margin-bottom: 50px;
+}
+#access .train .txt-img {
+  margin: 50px auto;
+}
+#access .car {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#access .car .bg {
+  background: url(../images/access/bg02.jpg);
+  background-size: cover;
+  padding-bottom: 140px;
+  margin-bottom: 100px;
+}
+#access .car .bg .image {
+  margin-bottom: 140px;
+}
+#access .car .inner {
+  max-width: 1000px;
+}
+#access .car .text {
+  font-size: 30px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+#access .car .sub {
+  font-size: 16px;
+  color: #3e4856;
+  margin-bottom: 50px;
+}
+#access .car .lead {
+  text-align: left;
+  font-size: 16px;
+  line-height: 2;
+}
+#access .car .car-tit {
+  margin-bottom: 20px;
+}
+#access .car .list-tit {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#access .car .list-tit .name {
+  font-size: 30px;
+}
+#access .car .list-tit .big {
+  font-size: 36px;
+}
+#access .car .img-txt {
+  margin: 20px 0 30px;
+}
+@media screen and (max-width: 768px) {
+  #access sp {
+    display: block;
+  }
+  #access pc {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) and (max-width: 768px) {
+  #access .main-visual .annotation {
+    bottom: -20px;
+  }
+  #access .swipe-img {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  #access .swipe-img img {
+    max-width: auto !important;
+    max-width: inherit !important;
+    width: auto !important;
+  }
+  #access .swipe {
+    display: block;
+    text-align: center;
+    margin: 20px auto 0;
+  }
+  #access .swipe img {
+    max-width: 75px;
+    width: 15%;
+    height: auto;
+    margin: auto;
+    pointer-events: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #access .main-visual {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+  #access .sections .column02 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #access .sections .column02 li:last-child {
+    margin-bottom: auto;
+  }
+  #access .sections .column03 li {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #access .sections .column03 li .txt img {
+    display: block;
+    height: 80px;
+    margin: auto;
+  }
+  #access .sections .column03 li .txt.h15 img {
+    display: block;
+    height: 95px;
+    margin: auto;
+  }
+  #access .sections .column03 li:last-child {
+    margin-bottom: auto;
+  }
+  #access .intro {
+    text-align: left;
+  }
+  #access .intro .tit {
+    font-size: 18px;
+    color: #697b85;
+    margin-bottom: 6px;
+  }
+  #access .intro .tit01 {
+    font-size: 26px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  #access .intro .text {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #access .intro .lead {
+    margin-bottom: 40px;
+  }
+  #access .train {
+    margin-bottom: 40px;
+  }
+  #access .train .tit {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+  }
+  #access .train .text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.12em;
+    margin-bottom: 20px;
+  }
+  #access .train .mini {
+    margin: 10px 10px 40px 0;
+  }
+  #access .train .txt {
+    font-size: 16px;
+  }
+  #access .train .txt01 {
+    text-align: left;
+    font-size: 18px;
+    margin: 60px 0 20px;
+  }
+  #access .train .slide-items {
+    margin: 0 auto 100px;
+  }
+  #access .train .lead {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  #access .train .column02 {
+    margin-bottom: 20px;
+  }
+  #access .train .swipe-img img {
+    width: 760px !important;
+  }
+  #access .box {
+    padding: 60px 0;
+    margin-bottom: 60px;
+  }
+  #access .box .txt {
+    margin-bottom: 20px;
+  }
+  #access .box .mini {
+    line-height: 1.4;
+  }
+  #access .box .column02 li {
+    width: 100%;
+  }
+  #access .box .column02 li:last-child {
+    width: 100%;
+    padding-bottom: 0;
+  }
+  #access .car {
+    margin-bottom: 60px;
+  }
+  #access .car .tit {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+  }
+  #access .car .text {
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.8;
+    letter-spacing: 0.12em;
+    margin-bottom: 20px;
+  }
+  #access .car .txt01 {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  #access .car .txt02 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  #access .car .txt02 span {
+    font-size: 12px;
+  }
+  #access .car .image img {
+    margin: auto;
+  }
+  #access .car .info01 {
+    margin-bottom: 40px;
+  }
+  #access .car .column02 li:last-child {
+    width: 100%;
+  }
+}/*# sourceMappingURL=access.css.map */
