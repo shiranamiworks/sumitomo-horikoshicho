@@ -27,46 +27,32 @@
   </div>
 	<!--// パンくずリスト -->
 
-  <header class="main-visual clearfix">
-    <!-- <h2 class="page-lead gothic">Hello New World.</h2> -->
-    <div class="top-mv__slide pc">
-    <figure><img src="./images/concept/mv01-pc.jpg" alt="" class="w_100 pc"><p class="annotation white">image photo</p></figure>
-    <figure><img src="./images/concept/mv02-pc.jpg" alt="" class="w_100 pc"><p class="annotation white">オリナス錦糸町（約240m／徒歩3分）</p></figure>
-    <figure><img src="./images/concept/mv03-pc.jpg" alt="" class="w_100 pc"><p class="annotation white">錦糸公園（約210m／徒歩3分）</p></figure>
-    <figure><img src="./images/concept/mv04-pc.jpg" alt="" class="w_100 pc"><p class="annotation white">all image photo</p></figure>
-  </div>
-  <div class="top-mv__slide sp tb">
-    <figure><img src="./images/concept/mv01-sp.jpg" alt="" class="w_100 pc"><p class="annotation white">image photo</p></figure>
-    <figure><img src="./images/concept/mv02-sp.jpg" alt="" class="w_100 pc"><p class="annotation white">オリナス錦糸町（約240m／徒歩3分）</p></figure>
-    <figure><img src="./images/concept/mv03-sp.jpg" alt="" class="w_100 pc"><p class="annotation white">錦糸公園（約210m／徒歩3分）</p></figure>
-    <figure><img src="./images/concept/mv04-sp.jpg" alt="" class="w_100 pc"><p class="annotation white">all image photo</p></figure>
+  <header class="main-visual">
+   <div class="image"><img src="./images/concept/mv.jpg">
+   <p class="annotation white caption01">あべのハルカス<br class="sp">（徒歩8分／約640m）</p>
+   <p class="annotation white caption02">あべのハルカス近鉄本店<br class="sp">（徒歩8分／約640m）</p>
+   <p class="annotation white caption03">天王寺公園<br class="sp">（徒歩6分／約440m）</p>
+   <p class="annotation white caption04">てんしば<br class="sp">（徒歩6分／約450m））</p>
+   <p class="annotation white caption05">慶沢園<br class="sp">（徒歩9分／約690m）</p>
+   <p class="annotation white caption06">四天王寺<br class="sp">（徒歩6分／約440m）</p>
   </div>
   </header><!-- main-visual -->
 
-  
-  <section class="intro sections clearfix">
+  <section class="intro sections">
     <div class="inner">
-      <ul class="clearfix">
-        <li>
-          <p class="title">満ち足りた<br>暮らしの<br>舞台へ。</p>
-        </li>
-        <li>
-          <p class="text">東京メトロ半蔵門線</p>
-          <p class="name">「大手町」駅直通<span class="num">13</span>分</span><sup>※1</sup></p>
-          <p class="lead">生まれ変わった美しい都市空間の一画に、<br>「錦糸町」で約12年ぶり<sup>※2</sup>となる大規模分譲マンションが誕生する。<br><br>あなたがここで出逢うのは、躍動する都心を自在に駆けるアクセスと、<br class="pc">オリナス錦糸町（約240m）や錦糸公園（約210m）を間近に、<br class="pc">都市の利便と自然の潤いに心から満たされるライフスタイル。<br><br>足を延ばせば、さらなる恩恵との出逢いに溢れ、<br class="pc">彩り豊かな時間が輝きを増していく。<br><br>「シティタワー錦糸公園」全130邸。<br>リバーサイドの爽やかな風の中に、今、求めていた暮らしの舞台を。</p>
-        </li>
-      </ul>
-      </div>
-      <div class="image img01 clearfix">
-        <img src="./images/concept/img01.jpg" alt="" class="w_100 ">
-        <p class="annotation white">航空写真</p>
-      </div>
+      <p class="lead">天王寺に満たされる。</p>
+      <h2 class="section-title">CONCEPT</h2>
+      <p class="text">大阪有数のターミナル<br class="sp">「天王寺」駅徒歩5分。<sup>※1</sup><br>その動と静、<br class="sp">多彩な美質を享受する<br class="sp">憧憬のステータス。 </p>
+      <p class="text txt02">多彩な商業施設<sup>※2</sup>と雄大な天王寺公園の緑が<br class="sp">ハーモニーを奏でる天王寺駅前エリア。<br>由緒ある歴史の面影と文教の風情が漂う<br class="sp">穏やかな住宅街に、<br class="sp">暮らしのための様々な美質が<br class="sp">バランスよく整う。<br>都心生活の動と静を満たす大阪の新境地へ、<br>豊かな未来を展望していく、<br class="sp">地上15階建て全56邸の<br class="sp">プライベート レジデンス誕生。</p>
+      <p class="annotation">※1：Osaka Metro谷町線「天王寺」駅徒歩5分</p>   
+    </div>
   </section><!-- intro -->
 
 
 
   <div class="annotation-area">
-  <p class="page-annotation js-scroll wrap clearfix">※1.現地より徒歩8分の東京メトロ半蔵門線「錦糸町」駅より東京メトロ半蔵門線利用、直通13分（12分）。<br>※2.東京メトロ半蔵門線「 錦糸町」駅を最寄りとして供給された総戸数100戸以上の新築分譲マンションは2011年以来となります。MRC入力ベースで、1期・新規販売が2000年1月以降の物件のみ。最寄り駅入力は物件販売時のMRC入力時登録駅に基づく。対象期間：2000年1月～2024年1月までのMRC調査・捕捉に基づく分譲マンションデータ。（出典：MRC調べ。2024年2月現在）<br>※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の所要時間は待ち時間・乗り換え時間を含んだ通勤時（カッコ内は日中平常時）の目安であり、時間帯により多少異なります。<br>※掲載の写真は2023年6月・11月撮影。<br>※掲載の航空写真は江東区亀戸付近上空から西方面を撮影（2023年10月）したものに現地部分の光などCG合成・加工をしたものです。また、周辺環境は将来変わる場合があります。</p></div>
+  <p class="page-annotation js-scroll wrap clearfix">※2.天王寺MIO（徒歩6分/約470m）、あべのハルカス（徒歩8分/約640m）、あべのキューズモール（徒歩10分/約740m）、HOOP（徒歩10分/約800m）、あべのand（徒歩12分/約910m）のことです。<br>※掲載の環境写真は2023年9月撮影。<br>※距離表示については地図上の概測距離を、徒歩分数表示については80ｍを1分として算出し、端数を切り上げたものです。<br>※掲載の情報は2023年7月現在のものです。
+</p></div>
 </main>
 
 <?php require(INCLUDES."footer.php"); ?>
