@@ -46,7 +46,7 @@
       <p class="sub">RAIL ACCESS</p>
       <p class="lead lead01">OsakaMetro谷町線「天王寺」駅徒歩５分をはじめ、OsakaMetro御堂筋線、JR大阪環状線・関西本線・阪和線「天王寺」駅徒歩６分、近鉄南大阪線など、徒歩10分圏内で5駅7路線※1が利用可能。<br>大阪市内を縦横無尽に繋ぐアクセスが、ライフスタイルの可能性を大きく広げます。</p>
       <div class="images img01">
-        <figure class="pc"><img src="./images/access/intro01.png" class="sp-hide" alt="現地周辺イラストマップ"></figure>
+        <figure class="pc"><img src="./images/access/intro01.png" class="sp-hide" alt="路線図"></figure>
         <figure class="tb"><img src="./images/access/intro01.png" class="zoomImg tb" alt=""/></figure>
         <p class="annotation">路線図</p>
       </div>
@@ -80,7 +80,8 @@
         </li>
       </ul>
       <div class="txt-img">
-        <img src="./images/access/train-txt01.svg">
+        <img src="./images/access/train-txt01.svg" class="pc">
+        <img src="./images/access/train-txt01-sp.svg" class="sp">
       </div>
       <ul class="column02">
         <li>
@@ -97,7 +98,8 @@
         </li>
       </ul>
       <div class="txt-img">
-        <img src="./images/access/train-txt02.svg">
+        <img src="./images/access/train-txt02.svg" class="pc">
+        <img src="./images/access/train-txt02-sp.svg" class="sp">
       </div>
     </div><!-- inner -->
   </section><!-- train -->
@@ -117,7 +119,8 @@
     </div><!-- bg -->
     <div class="inner">
       <div class="car-tit">
-        <img src="./images/access/car-tit.svg" alt="" class="">
+        <img src="./images/access/car-tit.svg" alt="" class="pc">
+        <img src="./images/access/car-tit-sp.svg" alt="" class="sp">
       </div>
       <p class="list-tit">■阪神高速14号松原線 <span class="name">「阿倍野」</span><span class="big">IC</span> 約<span class="big">1.3km</span>から</p>
       <ul class="column02">

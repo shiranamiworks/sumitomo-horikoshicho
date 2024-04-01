@@ -103,7 +103,7 @@
 }
 #access .sections .inner {
   margin: 0 auto;
-  width: 84%;
+  width: 90%;
   max-width: 1200px;
 }
 #access .sections .image {
@@ -252,9 +252,6 @@
   }
 }
 @media screen and (max-width: 768px) and (max-width: 768px) {
-  #access .main-visual .annotation {
-    bottom: -20px;
-  }
   #access .swipe-img {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
@@ -278,10 +275,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  #access .main-visual {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
-  }
   #access .sections .column02 li {
     display: block;
     width: 100%;
@@ -311,117 +304,94 @@
   #access .intro {
     text-align: left;
   }
-  #access .intro .tit {
-    font-size: 18px;
-    color: #697b85;
-    margin-bottom: 6px;
+  #access .intro .bg01 {
+    padding: 50px 0;
   }
-  #access .intro .tit01 {
+  #access .intro .tit {
     font-size: 26px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  #access .intro .bg02 {
+    background: url(../images/access/bg02.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    margin-bottom: 50px;
   }
   #access .intro .text {
     font-size: 20px;
-    margin-bottom: 20px;
   }
-  #access .intro .lead {
-    margin-bottom: 40px;
+  #access .intro .sub {
+    margin-bottom: 30px;
+  }
+  #access .intro .images.img01 {
+    width: 90%;
+    max-width: 640px;
+    margin: 30px auto;
   }
   #access .train {
-    margin-bottom: 40px;
-  }
-  #access .train .tit {
-    font-size: 36px;
-    line-height: 1.4;
-    margin-bottom: 40px;
-  }
-  #access .train .text {
-    text-align: left;
-    font-size: 20px;
-    line-height: 1.8;
-    letter-spacing: 0.12em;
-    margin-bottom: 20px;
-  }
-  #access .train .mini {
-    margin: 10px 10px 40px 0;
-  }
-  #access .train .txt {
-    font-size: 16px;
-  }
-  #access .train .txt01 {
-    text-align: left;
-    font-size: 18px;
-    margin: 60px 0 20px;
-  }
-  #access .train .slide-items {
-    margin: 0 auto 100px;
-  }
-  #access .train .lead {
-    text-align: left;
-    margin-bottom: 0;
-  }
-  #access .train .column02 {
-    margin-bottom: 20px;
-  }
-  #access .train .swipe-img img {
-    width: 760px !important;
-  }
-  #access .box {
-    padding: 60px 0;
-    margin-bottom: 60px;
-  }
-  #access .box .txt {
-    margin-bottom: 20px;
-  }
-  #access .box .mini {
-    line-height: 1.4;
-  }
-  #access .box .column02 li {
-    width: 100%;
-  }
-  #access .box .column02 li:last-child {
-    width: 100%;
-    padding-bottom: 0;
-  }
-  #access .car {
-    margin-bottom: 60px;
-  }
-  #access .car .tit {
-    font-size: 36px;
-    line-height: 1.4;
-    margin-bottom: 40px;
-  }
-  #access .car .text {
-    text-align: left;
-    font-size: 20px;
-    line-height: 1.8;
-    letter-spacing: 0.12em;
-    margin-bottom: 20px;
-  }
-  #access .car .txt01 {
-    text-align: left;
-    font-size: 18px;
-    line-height: 1.4;
-    margin-bottom: 20px;
-  }
-  #access .car .txt02 {
     text-align: center;
-    font-size: 18px;
-    line-height: 1.4;
-    padding: 10px 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
-  #access .car .txt02 span {
-    font-size: 12px;
+  #access .train .txt-img {
+    margin: 20px auto 30px;
   }
-  #access .car .image img {
+  #access .train .column03 li {
+    vertical-align: top;
+    display: inline-block;
+    width: 31.8%;
     margin: auto;
   }
-  #access .car .info01 {
+  #access .train .column03 li:last-child {
+    margin: auto;
+  }
+  #access .train .column02 li {
+    vertical-align: top;
+    display: inline-block;
+    width: 48.8%;
+    margin: auto;
+  }
+  #access .train .column02 li:last-child {
+    margin: auto;
+  }
+  #access .car {
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #access .car .bg {
+    text-align: left;
+    background: url(../images/access/bg02.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  #access .car .bg .image {
     margin-bottom: 40px;
   }
-  #access .car .column02 li:last-child {
-    width: 100%;
+  #access .car .inner {
+    max-width: 1000px;
+  }
+  #access .car .text {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  #access .car .sub {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  #access .car .car-tit {
+    margin-bottom: 20px;
+  }
+  #access .car .list-tit {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+  #access .car .list-tit .name {
+    font-size: 22px;
+  }
+  #access .car .list-tit .big {
+    font-size: 26px;
   }
 }/*# sourceMappingURL=access.css.map */

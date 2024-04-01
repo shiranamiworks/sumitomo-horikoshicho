@@ -59,16 +59,37 @@
 }
 #concept .image .annotation {
   position: absolute;
-  bottom: 0;
-  right: 0;
   text-align: right;
   font-size: 10px;
   line-height: 1.4;
 }
 #concept .image .annotation.white {
   color: #fff;
-  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
-  padding: 4px 8px 4px 40px;
+  text-shadow: 0 0 3px #000;
+}
+#concept .image .caption01 {
+  top: 39%;
+  right: 45%;
+}
+#concept .image .caption02 {
+  top: 39%;
+  right: 0;
+}
+#concept .image .caption03 {
+  top: 63.5%;
+  right: 53%;
+}
+#concept .image .caption04 {
+  top: 63.5%;
+  right: 0;
+}
+#concept .image .caption05 {
+  top: 98%;
+  right: 65.5%;
+}
+#concept .image .caption06 {
+  top: 98%;
+  right: 0;
 }
 #concept main {
   color: #3e3a39;
@@ -90,65 +111,73 @@
 }
 #concept .main-visual {
   position: relative;
+  line-height: 0;
   border: none;
-  background: #f5f7f8;
+}
+#concept .main-visual .page-lead {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 54px;
+  width: 90%;
+}
+#concept .main-visual .image img {
+  width: 100%;
+}
+#concept .sections {
+  background-color: #B4A064;
+  line-height: 0;
+}
+#concept .sections .section-title {
+  font-size: 27px;
+  text-align: center;
+  color: #afa471;
+  letter-spacing: 0.25em;
+  margin-bottom: 140px;
 }
 #concept .sections .inner {
   margin: 0 auto;
-  width: 84%;
-  max-width: 1000px;
+  width: 70%;
+  max-width: 1030px;
 }
-#concept .sections .image {
-  position: relative;
+#concept .sections .text {
+  font-size: 22px;
+  line-height: 2.1;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#concept .sections .text.txt02 {
+  font-size: 16px;
+}
+#concept .sections .img {
+  padding-top: 45px;
+  padding-bottom: 8px;
 }
 #concept .sections .annotation {
   font-size: 10px;
-  text-align: right;
+  text-align: left;
+  color: #fff;
 }
 #concept .intro {
-  text-align: center;
-  background: #f5f7f8;
-  background-size: cover;
-  padding: 40px 0;
+  background-color: black;
+  padding-bottom: 180px;
+  color: #fff;
 }
 #concept .intro .title {
-  font-size: 72px;
-  line-height: 1.6;
-  letter-spacing: 0.15em;
-  color: #49616d;
-}
-#concept .intro .text {
-  font-size: 22px;
-  line-height: 1;
-  letter-spacing: 0.12em;
-  color: #49616d;
-}
-#concept .intro .name {
-  font-size: 32px;
-  color: #49616d;
-  margin-top: -10px;
-  margin-bottom: 40px;
-}
-#concept .intro .num {
-  font-size: 60px;
+  margin-bottom: 105px;
+  max-width: 700px;
 }
 #concept .intro .lead {
-  font-size: 16px;
-  line-height: 2;
-  color: #49616d;
-}
-#concept .intro li {
-  text-align: left;
-  float: left;
-  width: 47%;
-}
-#concept .intro li:last-child {
-  float: right;
-  width: 53%;
-  margin-top: 14%;
-}
-#concept .intro .img01 {
-  margin-top: 40px;
+  font-size: 72px;
+  color: #B4A064;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 200px;
+  line-height: 1.5;
 }
 @media screen and (max-width: 1024px) {
   #concept .intro .title {
@@ -168,29 +197,55 @@
   #concept pc {
     display: none;
   }
-  #concept .top-mv__slide figure .annotation.white {
-    bottom: 25%;
+  #concept .image .caption01 {
+    top: 32%;
+    right: 45%;
+  }
+  #concept .image .caption02 {
+    top: 32%;
+    right: 1%;
+  }
+  #concept .image .caption03 {
+    top: 56.5%;
+    right: 53%;
+  }
+  #concept .image .caption04 {
+    top: 56.5%;
+    right: 1%;
+  }
+  #concept .image .caption05 {
+    top: 91%;
+    right: 65.5%;
+  }
+  #concept .image .caption06 {
+    top: 91%;
+    right: 1%;
+  }
+  #concept .sections .inner {
+    width: 94%;
   }
   #concept .intro {
     text-align: left;
+    padding-bottom: 90px;
   }
   #concept .intro .title {
     font-size: 32px;
     margin-bottom: 10px;
   }
-  #concept .intro .text {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  #concept .intro .name {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
-  #concept .intro .num {
-    font-size: 40px;
-  }
   #concept .intro .lead {
-    font-size: 16px;
+    font-size: 27px;
+    padding-top: 100px;
+  }
+  #concept .intro .section-title {
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+  #concept .intro .text {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  #concept .intro .text.txt02 {
+    font-size: 14px;
   }
   #concept .intro li {
     float: none;
