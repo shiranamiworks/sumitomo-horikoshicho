@@ -378,6 +378,7 @@
   .location02 .uemachi .column02 li:last-child {
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 10px;
   }
   .location02 .uemachi .column02 li:last-child .image {
     display: inline-block;

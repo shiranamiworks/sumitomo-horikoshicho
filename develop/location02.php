@@ -74,7 +74,7 @@
         <ul class="column02 list01">
           <li>
             <p class="txt01">都市の中にありながら、<br class="pc">のびやかな開放感に包まれる「てんしばエリア」</p>
-            <p class="txt02">公園と街の新しい楽しみ方が生まれる拠点として、多目的に利用できる約7,000m?の広さの芝生広場やカフェ、レストラン、フラワーショップ、子供の遊び場、総合ペットサービス、フットサルコートなどの施設に加え、授乳室、多目的トイレ、エレベーター・エスカレーターなど、多世代に配慮した設備も整っています。</p>
+            <p class="txt02">公園と街の新しい楽しみ方が生まれる拠点として、多目的に利用できる約7,000m<sup>2</sup>の広さの芝生広場やカフェ、レストラン、フラワーショップ、子供の遊び場、総合ペットサービス、フットサルコートなどの施設に加え、授乳室、多目的トイレ、エレベーター・エスカレーターなど、多世代に配慮した設備も整っています。</p>
           </li>
           <li>
             <div class="image">
@@ -176,20 +176,21 @@
         <li>
           <div class="image">
             <img src="./images/location02/uemachi02.jpg" alt="" class="">
-            <p class="annotation white">image photo</p>
+            <p class="annotation white pc">image photo</p>
           </div>
           <div class="image">
             <img src="./images/location02/uemachi03.jpg" alt="" class="">
-            <p class="annotation white">image photo</p>
+            <p class="annotation white pc">image photo</p>
           </div>
           <div class="image">
             <img src="./images/location02/uemachi04.jpg" alt="" class="">
-            <p class="annotation white">image photo</p>
+            <p class="annotation white pc">image photo</p>
           </div>
           <div class="image last">
             <img src="./images/location02/uemachi05.jpg" alt="" class="">
-            <p class="annotation white">image photo</p>
+            <p class="annotation white pc">image photo</p>
           </div>
+          <p class="annotation sp">all image photo</p>
         </li>
       </ul>
     </div><!-- inner -->
