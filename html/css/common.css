@@ -284,9 +284,10 @@ div.header-btn.bg_btn {
     padding-top: 17px;
     font-size: 1.2rem;
     letter-spacing: .1em;
-    background: #f1e9dc;
+    background: #9D9383;
     z-index: 50;
     cursor: pointer;
+    color: #fff;
 }
 
 .menu-trigger {
