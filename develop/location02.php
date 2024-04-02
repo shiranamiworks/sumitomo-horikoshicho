@@ -131,8 +131,8 @@
     <div class="bg">
       <div class="image img02">
       <img src="./images/location02/histric01.jpg" alt="" class="">
-      <p class="annotation white">四天王寺（徒歩6分/約440m）</p>
       </div>
+      <p class="caps">四天王寺（徒歩6分/約440m）</p>
       <div class="inner">
         <p class="tit">暮らしに彩りを添える四天王寺境内のイベント</p>
         <ul class="column02">
