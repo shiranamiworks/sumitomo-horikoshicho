@@ -13,7 +13,7 @@ $site_setting = array(
 $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 ?>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティハウス天王寺,天王寺 マンション,天王寺 新築マンション,天王寺,天王寺,OsakaMetro谷町線,大阪市天王寺区,マンション,新築マンション,分譲マンション,住友不動産">
+<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティハウス天王寺,天王寺 マンション,天王寺 新築マンション,天王寺,天王寺駅,OsakaMetro谷町線,大阪市天王寺区,マンション,新築マンション,分譲マンション,住友不動産">
 <meta name="description" content="<?= $page_settings["description"] ?>OsakaMetro谷町線・OsakaMetro御堂筋線・JR大阪環状線「天王寺」から徒歩5分。住友不動産の新築マンションが天王寺に誕生。【すみふ 堀越町】大阪市天王寺区のマンションなら住友不動産。">
 <title><?= $page_settings["title"] ?>【公式】シティハウス天王寺｜天王寺の新築マンション｜住友不動産</title>
 <meta property="og:url" content="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
