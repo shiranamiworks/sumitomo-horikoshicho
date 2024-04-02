@@ -137,6 +137,7 @@
 .location02 .sections .sub {
   font-size: 16px;
   color: #3e4856;
+  letter-spacing: 0.12em;
   margin-bottom: 50px;
 }
 .location02 .sections .lead01 {
@@ -197,7 +198,6 @@
 }
 .location02 .intro .tit {
   font-size: 40px;
-  letter-spacing: 0.2em;
   line-height: 1.8;
   color: #fff;
   margin-bottom: 50px;
@@ -249,6 +249,11 @@
 }
 .location02 .histric .bg .column02 {
   margin-top: 20px;
+}
+.location02 .histric .caps {
+  font-size: 14px;
+  text-align: right;
+  margin: 10px 10px 0 0;
 }
 .location02 .uemachi {
   text-align: center;
