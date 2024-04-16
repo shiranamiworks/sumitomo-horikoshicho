@@ -13,14 +13,14 @@ $site_setting = array(
 $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
 ?>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティハウス天王寺,天王寺 マンション,天王寺 新築マンション,天王寺,天王寺駅,OsakaMetro谷町線,大阪市天王寺区,マンション,新築マンション,分譲マンション,住友不動産">
+<meta name="keywords" content="<?= $page_settings["keywords"] ?>シティハウス天王寺堀越町,天王寺 マンション,天王寺 新築マンション,天王寺,天王寺駅,OsakaMetro谷町線,大阪市天王寺区,マンション,新築マンション,分譲マンション,住友不動産">
 <meta name="description" content="<?= $page_settings["description"] ?>OsakaMetro谷町線・OsakaMetro御堂筋線・JR大阪環状線「天王寺駅」から徒歩5分。住友不動産の新築マンションが天王寺に誕生。【すみふ 堀越町】大阪市天王寺区のマンションなら住友不動産。">
-<title><?= $page_settings["title"] ?>【公式】シティハウス天王寺｜天王寺の新築マンション｜住友不動産</title>
+<title><?= $page_settings["title"] ?>【公式】シティハウス天王寺堀越町｜天王寺の新築マンション｜住友不動産</title>
 <meta property="og:url" content="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
 <meta property="og:type" content="website" />
-<meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティハウス天王寺｜天王寺の新築マンション｜住友不動産">
+<meta property="og:title" content="<?= $page_settings["title"] ?>【公式】シティハウス天王寺堀越町｜天王寺の新築マンション｜住友不動産">
 <meta property="og:description" content="<?= $page_settings["description"] ?>OsakaMetro谷町線・OsakaMetro御堂筋線・JR大阪環状線「天王寺駅」から徒歩5分。住友不動産の新築マンションが天王寺に誕生。【すみふ 堀越町】大阪市天王寺区のマンションなら住友不動産。。">
-<meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティハウス天王寺｜天王寺の新築マンション｜住友不動産">
+<meta property="og:site_name" content="<?= $page_settings["title"] ?>【公式】シティハウス天王寺堀越町｜天王寺の新築マンション｜住友不動産">
 <meta property="og:image" content="<?= $page_settings["directory_pos"] ?>images/top/ogp.jpg" />
 
 <link rel="canonical" href="https://www.sumitomo-rd-mansion.jp/<?= $folder_name?><?= $page_settings["url"] ?>">
@@ -87,7 +87,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
     <h1 class="header-logo">
       <a href="index.html">
         <figure><img src="<?= $page_settings["directory_pos"]  ?>images/common/logo-pc.png" alt=""></figure>
-        <p>天王寺駅徒歩5分｜シティハウス天王寺｜天王寺 新築マンション｜<?= $page_settings["logo_text"]  ?>すみふ 堀越町｜住友不動産</p>
+        <p>天王寺駅徒歩5分｜シティハウス天王寺堀越町｜天王寺 新築マンション｜<?= $page_settings["logo_text"]  ?>すみふ 堀越町｜住友不動産</p>
       </a>
     </h1><!-- header-logo -->
     <div class="header-right d-flex">

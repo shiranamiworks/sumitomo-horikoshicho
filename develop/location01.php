@@ -21,7 +21,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティハウス天王寺｜天王寺 マンション｜トップ</a></li>
+      <li><a href="./index.html">シティハウス天王寺堀越町｜天王寺 マンション｜トップ</a></li>
       <li><a href="./location01.html">ロケーション</a></li>
       <li><p>快適性溢れる先進の都市機能</p></li>
     </ul>

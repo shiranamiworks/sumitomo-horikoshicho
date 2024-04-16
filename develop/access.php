@@ -21,7 +21,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティハウス天王寺｜天王寺 マンション｜トップ</a></li>
+      <li><a href="./index.html">シティハウス天王寺堀越町｜天王寺 マンション｜トップ</a></li>
       <li><p>アクセス</p></li>
     </ul>
   </div>

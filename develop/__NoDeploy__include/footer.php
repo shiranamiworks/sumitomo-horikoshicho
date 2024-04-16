@@ -43,7 +43,7 @@
       <ul class="footer-recommend__menu f-min">
         <!-- <li>天王寺 マンション</li>
         <li>天王寺 新築マンション</li> -->
-        <li>シティハウス天王寺</li>
+        <li>シティハウス天王寺堀越町</li>
         <!-- <li>大阪府大阪市天王寺区</li>
         <li>OsakaMetro谷町線</li>
         <li>天王寺</li> -->
