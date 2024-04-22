@@ -54,7 +54,7 @@
   <section class="city sections clearfix">
     <div class="inner">
       <p class="text">大型商業施設が集積する天王寺駅前</p>
-      <p class="sub">CITY POTENCIAL</p>
+      <p class="sub">CITY POTENTIAL</p>
       <p class="lead lead01">天王寺駅周辺には、大阪のランドマーク「あべのハルカス」をはじめ、「あべのキューズモール」「天王寺MIO」といった大型商業施設が集結し、ショッピングやグルメ、カルチャー、レジャーなど、様々なライフスタイルに応えながら、充実した街へと進化しました。</p>
       <div class="images img01">
         <figure class="pc"><img src="./images/location01/map.png" class="sp-hide" alt="立地概念図"></figure>
