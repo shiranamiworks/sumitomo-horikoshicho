@@ -169,9 +169,9 @@
       <ul class="column02">
         <li>
           <div class="image">
-            <img src="./images/location02/uemachi01.jpg" alt="" class="">
+            <img src="./images/location02/uemachi01.jpg" alt="" class=""><p class="annotation white">高台概念図</p>
           </div>
-          <p class="caps">上町台地概念図　出典：国土地理院ウェブサイト（2023年12月現在）</p>
+          <p class="caps tb">上町台地概念図　出典：国土地理院ウェブサイト（2023年12月現在）</p>
         </li>
         <li>
           <div class="image">
@@ -192,6 +192,7 @@
           </div>
           <p class="annotation sp">all image photo</p>
         </li>
+        <li class="caps pc">上町台地概念図　出典：国土地理院ウェブサイト（2023年12月現在）</li>
       </ul>
     </div><!-- inner -->
   </section><!-- uemachi -->

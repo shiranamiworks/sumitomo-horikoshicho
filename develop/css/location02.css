@@ -263,20 +263,21 @@
   max-width: 1000px;
 }
 .location02 .uemachi .column02 li {
-  width: 62%;
+  width: 68%;
   margin-right: 1%;
 }
-.location02 .uemachi .column02 li:last-child {
-  width: 36%;
+.location02 .uemachi .column02 li:nth-child(2) {
+  width: 29%;
   margin-right: auto;
 }
-.location02 .uemachi .column02 li:last-child .image {
-  margin-bottom: 3px;
+.location02 .uemachi .column02 li:nth-child(2) .image {
+  margin-bottom: 2%;
 }
-.location02 .uemachi .column02 li:last-child .image.last {
+.location02 .uemachi .column02 li:nth-child(2) .image.last {
   margin-bottom: 0;
 }
-.location02 .uemachi .column02 .caps {
+.location02 .uemachi .column02 li.caps {
+  width: 100%;
   text-align: left;
   margin-top: 10px;
   font-size: 12px;
@@ -375,6 +376,9 @@
     width: 100%;
     margin: auto;
   }
+  .location02 .uemachi .column02 li:nth-child(2) {
+    width: 100%;
+  }
   .location02 .uemachi .column02 li:last-child {
     width: 100%;
     margin-top: 20px;
@@ -387,6 +391,9 @@
   .location02 .uemachi .column02 .caps {
     font-size: 11px;
     line-height: 1.4;
+  }
+  .location02 .uemachi .column02 .caps.pc {
+    display: none;
   }
   .location02 .area {
     text-align: left;

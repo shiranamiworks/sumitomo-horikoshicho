@@ -273,20 +273,21 @@
     }
     .column02 {
       li {
-        width: 62%;
+        width: 68%;
         margin-right: 1%;
       }
-      li:last-child {
-        width: 36%;
+      li:nth-child(2){
+        width: 29%;
         margin-right: auto;
         .image {
-          margin-bottom: 3px;
+          margin-bottom: 2%;
         }
         .image.last {
           margin-bottom: 0;
         }
       }
-      .caps {
+      li.caps {
+        width: 100%;
         text-align: left;
         margin-top: 10px;
         font-size: 12px;
@@ -402,6 +403,9 @@
         li {
           width: 100%;
           margin: auto;
+          &:nth-child(2){
+            width: 100%;
+          }
         }
         li:last-child {
           width: 100%;
@@ -415,6 +419,9 @@
         .caps {
           font-size: 11px;
           line-height: 1.4;
+          &.pc{
+            display: none;
+          }
         }
       }
     } //uemachi
