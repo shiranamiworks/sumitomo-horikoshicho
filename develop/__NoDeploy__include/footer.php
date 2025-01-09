@@ -8,7 +8,7 @@
         <a href="<?= $site_setting["tel_link"]?>" class="entry-tel__num"><span class="f-en">0120-056-345</span></a><br>
         <a href="mailto:horikoshicho@j.sumitomo-rd.co.jp" class="disabled">horikoshicho@j.sumitomo-rd.co.jp</a>
       </div>
-      <p class="entry-info">営業時間／平日 11:00～19:00／土・日・祝日 10:00～18:00<br class="sp">（火曜・水曜日定休、年末年始は休業）</p>
+      <p class="entry-info">営業時間／10:00～18:00　<br class="sp">定休日／火曜日・水曜日　※年末年始は休業</p>
     </div>
   </div><!-- / entry -->
 
@@ -23,8 +23,6 @@
         <li class="roomplan">間取り</li>
         <li class="equipment">設備・仕様</li>
         <li class="structure">構造・防災</li>
-        <!-- <li class="location">ロケーション</li>
-        <li class="access">アクセス</li> -->
         <li class="location"><a href="<?= $page_settings["directory_pos"]  ?>location01.html">ロケーション</a></li>
         <li class="access"><a href="<?= $page_settings["directory_pos"]  ?>access.html">アクセス</a></li>
         <li class="start map"><a href="<?= $page_settings["directory_pos"]  ?>map.html" target="_blank">現地案内図</a></li>
