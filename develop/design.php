@@ -1,0 +1,51 @@
+<!doctype html><?php
+ $page_settings = array(
+  "directory_pos" => "./",
+  "page_id" => "design",
+  "gnav_set" => "design",
+  "page_class" => "design",
+  "url" => "design.html",
+  "title" => "デザイン｜",
+  "keywords" => "デザイン,",
+  "description" => "デザインページ。",
+  "add_stylesheet" => ["css/design.css"],
+  "add_script" =>  [""],
+  "canonical_page_id" => "design", 
+  "logo_text" => "デザイン｜"
+);
+?>
+
+<?php require(INCLUDES."header.php"); ?>
+
+<main>
+	<!-- パンくずリスト -->
+  <div class="breadcrumb sp-hide">
+    <ul>
+      <li><a href="./index.html">シティハウス天王寺堀越町｜天王寺 マンション｜トップ</a></li>
+      <li><p>デザイン</p></li>
+    </ul>
+  </div>
+	<!--// パンくずリスト -->
+
+  <header class="main-visual clearfix">
+   <div class="image"><img src="./images/design/mv.jpg" alt="" class="">
+   <p class="annotation white">外観完成予想図</p></div>
+  </header><!-- main-visual -->
+
+  
+  <section class="intro sections clearfix">
+    <div class="inner">
+      <p class="tit">天王寺に新しい品格を描く洗練のフォルム</p>
+      <p class="lead">美しく輝くガラスファサードに凛としたホワイトのラインが街並みの中に<br class="pc">鮮やかに際立つ印象的な外観デザイン。<br>都心にありながら、優雅な落ち着きと気品に包まれた憧憬を此処に描き出します。</p>
+    </div>
+  </section><!-- intro -->
+
+
+
+<div class="annotation-area">
+<p class="page-annotation js-scroll wrap clearfix">※掲載の外観完成予想図は計画段階の図面を基に描き起こしたもので、実際とは多少異なります。また、形状の細部および設備機器等については省略しております。<br>※敷地内の樹木等はある程度生育した後をイメージして描いたものです。また、葉や花の色合い、樹形等はイメージであり実際とは異なります。なお、植栽計画は変更される場合がありますので、あらかじめご了承ください。</p></div>
+</main>
+
+<?php require(INCLUDES."footer.php"); ?>
+</body>
+</html>
