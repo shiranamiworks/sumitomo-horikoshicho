@@ -62,6 +62,14 @@ pc {
 }
 .top-mv {
   background: #f1e9dc;
+  position: relative;
+  .caption{
+    position: absolute;
+    right: 0;
+    bottom: 14%;
+    color: #fff;
+    filter: drop-shadow(0 0 2px rgba(0,0,0,.7)) drop-shadow(0 0 3px rgba(0,0,0,.7));
+  }
 }
 
 .top-mv__slide figure {
@@ -106,6 +114,9 @@ pc {
 }
 
 @media screen and (max-width: 1400px) {
+  .top-mv .caption{
+      bottom: 12%;
+  }
   .mv-access__main {
     font-size: 1.8vw;
   }
@@ -132,6 +143,9 @@ pc {
   /* SP用 MVスライド */
   .top-mv {
     background: #f1e9dc;
+    .caption{
+      bottom: 11%;
+    }
   }
 
   .top-mv__slide .slick-dots li {
