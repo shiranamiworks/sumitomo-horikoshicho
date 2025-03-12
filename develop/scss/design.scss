@@ -93,6 +93,7 @@
   }
   .page-annotation {
     font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0;
   }
   .main-visual {
     position: relative;
@@ -127,13 +128,13 @@
     padding: 140px 0 100px;
     margin-top: -2px;
     .tit {
-      font-size: 50px;
+      font-size: 4.2rem;
       line-height: 1.8;
       letter-spacing: 0.25rem;
       margin-bottom: 40px;
     }
     .lead {
-      font-size: 16px;
+      font-size: 1.6rem;
       line-height: 2;
     }
   } //intro

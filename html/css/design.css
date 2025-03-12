@@ -95,6 +95,7 @@
 }
 #design .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 #design .main-visual {
   position: relative;
@@ -127,13 +128,13 @@
   margin-top: -2px;
 }
 #design .intro .tit {
-  font-size: 50px;
+  font-size: 4.2rem;
   line-height: 1.8;
   letter-spacing: 0.25rem;
   margin-bottom: 40px;
 }
 #design .intro .lead {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 2;
 }
 @media screen and (max-width: 768px) {

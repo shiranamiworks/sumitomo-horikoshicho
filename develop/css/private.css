@@ -96,6 +96,7 @@
 }
 #private .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 #private .main-visual {
   position: relative;
@@ -131,13 +132,13 @@
   max-width: 1200px;
 }
 #private .intro .tit {
-  font-size: 50px;
+  font-size: 4.2rem;
   line-height: 1.8;
   letter-spacing: 0.25rem;
   margin-bottom: 40px;
 }
 #private .intro .lead {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 2;
 }
 #private .sec01 {
@@ -147,7 +148,7 @@
   padding: 80px 0;
 }
 #private .sec01 .tit {
-  font-size: 34px;
+  font-size: 3.4rem;
   line-height: 1.5;
   margin-bottom: 60px;
 }
@@ -162,16 +163,17 @@
   background-size: cover;
 }
 #private .sec02 .tit {
-  font-size: 34px;
+  font-size: 3.4rem;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 #private .sec02 .sub {
-  font-size: 20px;
+  font-size: 2rem;
   color: #3e4856;
   margin-bottom: 50px;
 }
 #private .sec02 .box {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto 50px;
   background: #fff;
@@ -181,23 +183,23 @@
   padding: 40px 0;
 }
 #private .sec02 .box .txt01 {
-  font-size: 18px;
+  font-size: 1.8rem;
   color: #3e4856;
   margin-bottom: 14px;
 }
 #private .sec02 .box .txt02 {
-  font-size: 30px;
+  font-size: 3rem;
   margin-bottom: 25px;
 }
 #private .sec02 .box .lead {
   text-align: left;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 15px;
 }
 #private .sec02 .box .mini {
   text-align: left;
-  font-size: 13px;
+  font-size: 1.3rem;
   line-height: 1.5;
   margin-bottom: 40px;
 }
@@ -213,6 +215,7 @@
 #private .sec02 .caps {
   text-align: right;
   max-width: 1200px;
+  width: 90%;
   margin: auto;
   font-size: 12px;
 }

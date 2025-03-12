@@ -95,6 +95,7 @@
 }
 #public .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 #public .main-visual {
   position: relative;
@@ -129,13 +130,13 @@
   padding: 140px 0 100px;
 }
 #public .intro .tit {
-  font-size: 50px;
+  font-size: 4.2rem;
   line-height: 1.8;
   letter-spacing: 0.25rem;
   margin-bottom: 40px;
 }
 #public .intro .lead {
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 2;
 }
 #public .landplan {
@@ -150,7 +151,7 @@
   background: #fff;
   padding: 80px 0;
   color: #000;
-  font-size: 34px;
+  font-size: 3.6rem;
   line-height: 1.5;
 }
 #public .landplan .images {
@@ -162,12 +163,12 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  font-size: 18px;
+  font-size: 1.6rem;
   line-height: 1.6;
 }
 #public .landplan .txt {
   text-align: left;
-  font-size: 22px;
+  font-size: 2.2rem;
   margin: 100px 0 20px;
 }
 #public .landplan .list {
@@ -175,20 +176,21 @@
 }
 #public .landplan .list li {
   display: inline-block;
-  width: 19%;
+  width: 18%;
   vertical-align: bottom;
-  margin-right: 0.5%;
+  margin-right: 1%;
 }
 #public .landplan .list li:last-child {
+  width: 20%;
   margin: auto;
 }
 #public .landplan .list .name {
   text-align: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin-top: 10px;
 }
 #public .landplan .list .mini {
-  font-size: 13px;
+  font-size: 1.3rem;
   text-align: left;
   line-height: 1.4;
 }

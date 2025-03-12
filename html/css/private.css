@@ -96,6 +96,7 @@
 }
 #private .page-annotation {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0;
 }
 #private .main-visual {
   position: relative;
@@ -172,6 +173,7 @@
   margin-bottom: 50px;
 }
 #private .sec02 .box {
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto 50px;
   background: #fff;
@@ -213,6 +215,7 @@
 #private .sec02 .caps {
   text-align: right;
   max-width: 1200px;
+  width: 90%;
   margin: auto;
   font-size: 12px;
 }
