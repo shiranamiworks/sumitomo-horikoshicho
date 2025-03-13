@@ -99,6 +99,7 @@
   .main-visual {
     position: relative;
     border: none;
+    background: #000;
   }
   .sections {
     .inner {
@@ -234,19 +235,40 @@
     pc {
       display: none;
     }
-
+    .main-visual .image {
+      line-height: 0;
+      .annotation{
+        padding: 3% 3% 0;
+        position: static;
+        background: #000;
+        text-align: left;
+        
+      }
+    }
+    .swipe-img{
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      img{
+        width:960px !important;
+        max-width: inherit !important;
+      }
+    }
+    .swipe{
+      width: 60px;
+      margin: 10px auto 0;
+    }
     .intro {
       text-align: left;
       padding: 50px 0;
       margin-top: -2px;
       .tit {
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 1.8;
         letter-spacing: 0.25rem;
         margin-bottom: 30px;
       }
       .lead {
-        font-size: 14px;
+        font-size: 1.4rem;
         line-height: 2;
       }
     } //intro
@@ -255,7 +277,7 @@
       text-align: left;
       padding: 50px 0;
       .tit {
-        font-size: 24px;
+        font-size: 2.4rem;
         margin-bottom: 30px;
       }
     } //sec01
@@ -263,10 +285,10 @@
       text-align: left;
       padding: 50px 0;
       .tit {
-        font-size: 24px;
+        font-size: 2.4rem;
       }
       .sub {
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
       }
       .box {
         margin: 0 auto 30px;
@@ -277,12 +299,12 @@
           line-height: 1.4;
         }
         .txt02 {
-          font-size: 26px;
+          font-size: 2.2rem;
           line-height: 1.5;
           margin-bottom: 20px;
         }
         .lead {
-          font-size: 14px;
+          font-size: 1.4rem;
         }
         .mini {
           text-align: left;

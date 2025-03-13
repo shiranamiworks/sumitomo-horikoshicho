@@ -35,7 +35,7 @@
   
   <section class="intro sections clearfix">
     <div class="inner">
-      <p class="tit">天王寺に新しい品格を描く洗練のフォルム</p>
+      <p class="tit">天王寺に新しい品格を描く<br class="sp">洗練のフォルム</p>
       <p class="lead">美しく輝くガラスファサードに凛としたホワイトのラインが街並みの中に<br class="pc">鮮やかに際立つ印象的な外観デザイン。<br>都心にありながら、優雅な落ち着きと気品に包まれた憧憬を此処に描き出します。</p>
     </div>
   </section><!-- intro -->

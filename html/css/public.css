@@ -211,13 +211,13 @@
     padding: 50px 0;
   }
   #public .intro .tit {
-    font-size: 24px;
+    font-size: 2.1rem;
     line-height: 1.8;
     letter-spacing: 0.25rem;
     margin-bottom: 30px;
   }
   #public .intro .lead {
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 2;
   }
   #public .landplan {
@@ -226,14 +226,14 @@
   #public .landplan .tit {
     text-align: center;
     padding: 40px 0;
-    font-size: 20px;
+    font-size: 2rem;
   }
   #public .landplan .images {
     padding-top: 50px;
   }
   #public .landplan .images .point {
     position: inherit;
-    font-size: 16px;
+    font-size: 1.6rem;
     margin-top: 40px;
   }
   #public .landplan .txt {
@@ -259,9 +259,9 @@
     margin: auto;
   }
   #public .landplan .list .mini {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
   #public .landplan .list .mini span {
-    font-size: 11px;
+    font-size: 1.1rem;
   }
 }/*# sourceMappingURL=public.css.map */

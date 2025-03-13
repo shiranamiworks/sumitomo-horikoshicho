@@ -101,6 +101,7 @@
 #private .main-visual {
   position: relative;
   border: none;
+  background: #000;
 }
 #private .sections .inner {
   margin: 0 auto;
@@ -226,19 +227,40 @@
   #private pc {
     display: none;
   }
+  #private .main-visual .image {
+    line-height: 0;
+  }
+  #private .main-visual .image .annotation {
+    padding: 3% 3% 0;
+    position: static;
+    background: #000;
+    text-align: left;
+  }
+  #private .swipe-img {
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  #private .swipe-img img {
+    width: 960px !important;
+    max-width: inherit !important;
+  }
+  #private .swipe {
+    width: 60px;
+    margin: 10px auto 0;
+  }
   #private .intro {
     text-align: left;
     padding: 50px 0;
     margin-top: -2px;
   }
   #private .intro .tit {
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 1.8;
     letter-spacing: 0.25rem;
     margin-bottom: 30px;
   }
   #private .intro .lead {
-    font-size: 14px;
+    font-size: 1.4rem;
     line-height: 2;
   }
   #private .sec01 {
@@ -246,7 +268,7 @@
     padding: 50px 0;
   }
   #private .sec01 .tit {
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-bottom: 30px;
   }
   #private .sec02 {
@@ -254,10 +276,10 @@
     padding: 50px 0;
   }
   #private .sec02 .tit {
-    font-size: 24px;
+    font-size: 2.4rem;
   }
   #private .sec02 .sub {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
   #private .sec02 .box {
     margin: 0 auto 30px;
@@ -269,12 +291,12 @@
     line-height: 1.4;
   }
   #private .sec02 .box .txt02 {
-    font-size: 26px;
+    font-size: 2.2rem;
     line-height: 1.5;
     margin-bottom: 20px;
   }
   #private .sec02 .box .lead {
-    font-size: 14px;
+    font-size: 1.4rem;
   }
   #private .sec02 .box .mini {
     text-align: left;

@@ -28,8 +28,10 @@
 	<!--// パンくずリスト -->
 
   <header class="main-visual clearfix">
-   <div class="image"><img src="./images/private/mv.jpg" alt="" class="">
-   <p class="annotation white">※掲載の眺望写真は現地15階相当からの眺望写真（2024年1月撮影）。<br>※眺望等は階数・各住戸により異なり、周辺環境・眺望は将来変わる場合があります。また、季節・天候によっても異なる場合があります。</p></div>
+   <div class="image">
+    <div class="swipe-img right-start modify-starts"><img src="./images/private/mv.jpg" alt="" class=""></div>
+    <p class="annotation white">※掲載の眺望写真は現地15階相当からの眺望写真（2024年1月撮影）。<br class="pc">※眺望等は階数・各住戸により異なり、周辺環境・眺望は将来変わる場合があります。また、季節・天候によっても異なる場合があります。</p>
+    <div class="swipe tb"><img src="./images/common/icon_swipe.svg" alt="スライドで全体を表示できます"></div></div>
   </header><!-- main-visual -->
 
   
@@ -75,9 +77,13 @@
         <p class="txt01">ライフスタイルに合わせて間取りを変更できる</p>
         <p class="txt02">ダブルオープンフレキシブルプラン</p>
         <p class="lead">リビング・ダイニングと隣接する洋室を可動式間仕切り扉で開放的な一体空間にもプライバシーの保たれた個室にも変更可能なダブルオープンフレキシブルプランを採用しました。リビング・ダイニングとの一体感を高めるため、主開口側であるサッシュ面に余計な袖壁を作らない従来の設計に加え、主開口とは反対側からも単独で開くことができる扉を採用することで洋室のプライベート性や家具レイアウトの自由度が大きくアップしました。ライフスタイルの変化にリフォームすることなく自在に対応できます。</p>
-        <div class="image">
-          <img src="./images/private/sec02-02.png" alt="" class="">
+        <div class="image img01">
+          <figure class="pc"><img src="./images/private/sec02-02.png" class="sp-hide" alt="ダブルオープンフレキシブルプラン"></figure>
+          <figure class="tb"><img src="./images/private/sec02-02.png" class="zoomImg tb" alt="ダブルオープンフレキシブルプラン"/></figure>
         </div>
+        <!-- <div class="image">
+          <img src="./images/private/sec02-02.png" alt="" class="">
+        </div> -->
       </div>
     </div><!-- box -->
     <div class="box box03">
