@@ -164,7 +164,7 @@
   margin-bottom: 15px;
   span {
     display: block;
-    font-size: 14px;
+    font-size: 1.4rem;
     border-bottom: 1px solid;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -174,7 +174,7 @@
   }
 }
 .lead {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 1.6;
   margin-bottom: 10px;
   span {
@@ -195,7 +195,7 @@
 }
 @media screen and (max-width: 1024px) {
   .sections .tit-img{
-    font-size: 1.6rem;
+    font-size: 2rem;
     &.pt22{
       padding-top: 17px;
     }
@@ -217,7 +217,7 @@
   }
   .sections{
     .tit {
-      font-size: 2.2rem;
+      font-size: 1.8rem;
       margin-bottom: 30px;
       &:before,
       &:after {

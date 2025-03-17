@@ -38,16 +38,6 @@
         margin-bottom: 0;
       }
     }
-    .annotation {
-      font-size: 12px;
-      text-align: right;
-      &.bt {
-        bottom: -20px;
-      }
-      &.bt0 {
-        bottom: 0;
-      }
-    }
     .tit {
       font-size: 1.8rem;
       letter-spacing: 0.12em;
@@ -55,21 +45,6 @@
       background: #1D2A56;
       margin-bottom: 30px;
       padding: 10px;
-    }
-    .tit-img {
-      font-size: 2rem;
-      line-height: 1;
-      margin-bottom: 15px;
-      span {
-        display: block;
-        font-size: 14px;
-        border-bottom: 1px solid;
-        padding-bottom: 5px;
-        margin-bottom: 10px;
-      }
-      &.mini {
-        font-size: 1.6rem;
-      }
     }
     .lead {
       font-size: 14px;
@@ -154,14 +129,6 @@
   @media screen and (max-width: 1300px) {
   }
   @media screen and (max-width: 1024px) {
-    .sections .tit-img{
-      font-size: 1.6rem;
-      &.pt22{
-        padding-top: 17px;
-      }
-    }
-    .sec01 {
-    } //sec01
   } //tb
   @media screen and (max-width: 768px) {
     .sections {
@@ -174,12 +141,6 @@
         &:before,
         &:after {
           content: none;
-        }
-      }
-      .tit-img{
-        font-size: 22px;
-        &.pt22{
-          padding-top: 0;
         }
       }
       .lead {

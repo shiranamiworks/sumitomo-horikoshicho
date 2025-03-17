@@ -37,17 +37,6 @@
         padding-top: 50px;
       }
     }
-    .annotation {
-      font-size: 12px;
-      text-align: right;
-      &.bt{
-        bottom: -7%;
-      }
-    }
-    .text {
-      font-size: 19px;
-      line-height: 1.6;
-    }
     .caps {
       font-size: 12px;
       line-height: 1.2;
@@ -106,7 +95,7 @@
         }
         .img01{
           float: left;
-          width: 53%;
+          width: 51%;
           margin-right: 2%;
         }
         .img02{
@@ -139,9 +128,6 @@
     .sections {
       .inner {
         width: 84%;
-      }
-      .tit-img{
-        font-size: 22px;
       }
       .lead {
         span {

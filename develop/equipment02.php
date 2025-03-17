@@ -61,11 +61,11 @@
             <p class="lead">リビング・ダイニングには、大阪ガスのヌック温水床暖房を採用。温水を利用して足元から心地よく室内を暖め、理想的といわれる『頭寒足熱』を実現する暖房システムです。</p>
           </div>
           <div class="image01">
-            <div class="img01">
+            <div class="image img01">
             <p class="tit-img"><span>床暖房の垂直温度分布</span></p>
               <img src="./images/equipment02/img02-01.jpg" alt="" class=""><p class="annotation gothic">※参考図（天井高は実際とは異なります。）</p>
             </div>
-            <div class="img02">
+            <div class="image img02">
               <img src="./images/equipment02/img02-02.jpg" alt="" class=""><p class="annotation gothic">参考写真2</p>
             </div>
           </div>

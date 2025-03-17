@@ -41,50 +41,6 @@
 .equipment05 .sections .annotation.mr-35 {
   margin-right: -35px;
 }
-.equipment05 .sections .tit {
-  font-size: 42px;
-  letter-spacing: 0.12em;
-  color: #b9a277;
-  text-align: center;
-  padding: 10px 0 10px 16px;
-  margin-bottom: 30px;
-  line-height: 1.6;
-}
-.equipment05 .sections .tit:before, .equipment05 .sections .tit:after {
-  content: "";
-  display: inline-block;
-  width: 30px;
-  height: 2px;
-  background-color: #b9a277;
-  margin-right: 15px;
-  vertical-align: middle;
-}
-.equipment05 .sections .tit:before, .equipment05 .sections .tit:after {
-  margin-left: 15px;
-}
-.equipment05 .sections .tit-img {
-  font-size: 22px;
-  line-height: 1;
-  padding-bottom: 10px;
-  border-bottom: 1px solid;
-  margin-bottom: 10px;
-  font-family: "Noto Sans JP";
-}
-.equipment05 .sections .tit-img span {
-  font-size: 14px;
-}
-.equipment05 .sections .lead {
-  font-size: 17px;
-  line-height: 1.6;
-  margin-bottom: 10px;
-}
-.equipment05 .sections .lead span {
-  display: block;
-  font-size: 12px;
-  letter-spacing: 0;
-  line-height: 1.6;
-  margin-top: 10px;
-}
 .equipment05 .sections .text {
   font-size: 19px;
   line-height: 1.6;
@@ -223,25 +179,9 @@
 .equipment05 main {
   padding-bottom: 50px;
 }
-@media screen and (max-width: 1024px) {
-  .equipment05 .sections .tit-img {
-    font-size: 1.6rem;
-  }
-}
 @media screen and (max-width: 768px) {
   .equipment05 .sections .inner {
     width: 84%;
-  }
-  .equipment05 .sections .tit {
-    font-size: 30px;
-    margin-bottom: 30px;
-    line-height: 1.4;
-  }
-  .equipment05 .sections .tit:before, .equipment05 .sections .tit:after {
-    content: none;
-  }
-  .equipment05 .sections .tit-img {
-    font-size: 22px;
   }
   .equipment05 .sections .lead {
     margin-bottom: 20px;
