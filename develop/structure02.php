@@ -21,7 +21,7 @@
 	<!-- パンくずリスト -->
   <div class="breadcrumb sp-hide">
     <ul>
-      <li><a href="./index.html">シティタワー古川橋｜古川橋 新築分譲マンション｜トップ</a></li>
+      <li><a href="./index.html">シティハウス天王寺堀越町｜天王寺 マンション｜トップ</a></li>
       <li><a href="./structure02.html">構造・防災</a></li>
       <li><p>セキュリティ</p></li>
     </ul>
@@ -45,7 +45,7 @@
             <p class="annotation gothic bt">（概念図）</p>
           </div>
           <p class="tit-img"><span>安心で快適な</span>エレベーター内の防犯対策</p>
-          <p class="lead">2エレベーターには、防犯カメラを設置し、さらに緊急時には非常呼出しボタンにより、インターホンによる通話ができます。</p>
+          <p class="lead">エレベーターには、防犯カメラを設置し、さらに緊急時には非常呼出しボタンにより、インターホンによる通話ができます。</p>
         </li>
         <li class="half half01">
           <p class="tit-img"><span>来訪者を3段階でチェックして不審者の侵入対策を強化</span>ダブルオートロックシステム</p>
