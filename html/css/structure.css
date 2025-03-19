@@ -86,6 +86,52 @@
   display: none;
 }
 
+.tit {
+  font-size: 1.8rem;
+  letter-spacing: 0.12em;
+  color: #fff;
+  background: #1D2A56;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.tit-img {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.tit-img.font18 {
+  font-size: 1.8rem;
+}
+.tit-img.font18 span {
+  font-size: 1.2rem;
+}
+.tit-img span {
+  display: block;
+  font-size: 1.4rem;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.tit-img .mini {
+  display: inline;
+  font-size: 1.6rem;
+  border-bottom: none;
+}
+
+.lead {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+.lead span {
+  display: block;
+  font-size: 11px;
+  line-height: 1.6;
+  margin-top: 5px;
+}
+
 .caption {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 10px;
@@ -94,6 +140,17 @@
 @media screen and (max-width: 1400px) {
   .structure-link a {
     font-size: 1.28vw;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .tit {
+    font-size: 2.2rem;
+  }
+  .tit-img {
+    font-size: 2rem;
+  }
+  .tit-img.mt30 {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -109,6 +166,10 @@
   }
   .structure-link a::before {
     left: 10px;
+  }
+  .sections .tit {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 639px) {
@@ -181,14 +242,17 @@ main img {
 }
 .image .annotation {
   position: absolute;
-  bottom: 10px;
-  right: 10px;
+  bottom: -15px;
+  right: 0;
   text-align: right;
   font-size: 10px;
 }
 .image .annotation.white {
   color: #fff;
   text-shadow: 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000, 0px 0px 4px #000;
+}
+.image .annotation.bt003 {
+  bottom: 3%;
 }
 
 main {
