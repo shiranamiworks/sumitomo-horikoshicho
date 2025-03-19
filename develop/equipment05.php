@@ -63,7 +63,6 @@
           <div class="image tb">
             <img src="./images/equipment05/img03.jpg" alt="" class="">
             <p class="annotation gothic">参考写真2</p>
-            <p class="annotation left gothic">（概念図）</p>
           </div>
         </li>
         <li>
@@ -82,14 +81,13 @@
           <div class="image pc">
             <img src="./images/equipment05/img03.jpg" alt="" class="">
             <p class="annotation gothic">参考写真2</p>
-            <p class="annotation left gothic">（概念図）</p>
           </div>
         </li>
       </ul>
       <ul class="lists list02">
         <li>
           <p class="tit-img"><span>またぎが低く入浴しやすい</span>低床型ユニットバス</p>
-          <p class="lead">つ浴槽へのまたぎ高を約450㎜に抑え、出入口の段差も極力解消した、低床設計のユニットバスを採用しました。さらに、壁には手すりを設置した、人にやさしい仕様です。</p>
+          <p class="lead">浴槽へのまたぎ高を約450㎜に抑え、出入口の段差も極力解消した、低床設計のユニットバスを採用しました。さらに、壁には手すりを設置した、人にやさしい仕様です。</p>
           <div class="image">
             <img src="./images/equipment05/img04.jpg" alt="" class="">
             <p class="annotation gothic">参考写真1</p>
@@ -99,7 +97,7 @@
           <p class="tit-img"><span>使い易さに配慮した</span>車椅子利用者対応エレベーター</p>
           <p class="lead">車椅子などでの利用に配慮して、正面壁面は鏡貼りとし、エレベーター内に手摺を設置。また、カゴ内と乗場の低い位置に車椅子専用ボタンを設けています。</p>
           <p class="tit-img mt30"><span>毎日の安全な暮らしをサポートする</span>共用部の手すり・<br>フラットフロア・スロープ</p>
-          <p class="lead">車椅子などでの利用に配慮して、正面壁面は鏡貼りとし、エレベーター内に手摺を設置。また、カゴ内と乗場の低い位置に車椅子専用ボタンを設けています。</p>
+          <p class="lead">共用階段の要所に手すりを設けました。さらに、エントランスや共用廊下などの床段差も極力解消し、車椅子の通行しやすいスロープを多用するなど、安全に配慮しています。</p>
         </li>
         <li>
           <p class="tit-img"><span>鍵を取り出すことなく解錠可能な</span>ハンズフリーキー</p>
@@ -148,7 +146,7 @@
           <p class="tit-img"><span>床近くから天井近くまで、壁一面に窓を設けた</span>ダイナミックパノラマウインドウ</p>
           <p class="lead">リビング・ダイニングの開口部に、ダイナミックパノラマウインドウを採用しました。バルコニーの無いあたかもスクリーンのようなサッシュを通して、空との一体感をもたらす圧倒的な開放感と、視界がひときわワイドに広がるダイナミックな眺望（ダイレクトスカイビュー）を座ったままでもお楽しみいただけます。<span>※D（6～15階）タイプのみ。</span></p>
           <div class="image mb30">
-            <img src="./images/equipment05/img08.jpg" alt="" class=""><p class="annotation bt-25 gothic">ダイナミック<br class="sp">パノラマウインドウの場合<br>（概念図）</p><p class="annotation left left01 gothic">バルコニーのある開口部の場合 <br>（概念図）</p>
+            <img src="./images/equipment05/img08.jpg" alt="" class="pc"><img src="./images/equipment05/img08-sp.jpg" alt="" class="tb"><p class="annotation gothic">ダイナミックパノラマウインドウの場合<br class="pc">（概念図）</p><p class="annotation left left01 gothic">バルコニーのある開口部の場合 <br class="pc">（概念図）</p>
           </div>
           <p class="tit-img mt45"><span>床眺望を妨げることがなく、熱にも強い</span>透明耐熱強化ガラス</p>
           <p class="lead">一部住戸には、透明耐熱強化ガラスを採用し、眺望を妨げる網をなくすと同時に強化処理を加えた防火ガラスとなっています。また万一割れた際には破片が細かく砕けるので、安全性にも優れています。<span>※詳細は係員にお尋ねください。</span></p>
@@ -168,6 +166,7 @@
           <p class="lead">リビング・ダイニングと隣接する洋室を可動式間仕切り扉で開放的な一体空間にもプライバシーの保たれた個室にも変更可能なダブルオープンフレキシブルプランを採用しました。リビング・ダイニングとの一体感を高めるため、主開口側であるサッシュ面に余計な袖壁を作らない従来の設計に加え、主開口とは反対側からも単独で開くことができる扉を採用することで洋室のプライベート性や家具レイアウトの自由度が大きくアップしました。ライフスタイルの変化にリフォームすることなく自在に対応できます。</p>
           <div class="image">
             <img src="./images/equipment05/img10.jpg" alt="" class="pc"><img src="./images/equipment05/img10-sp.jpg" alt="" class="tb">
+            <p class="annotation left left03 gothic">※設備・仕様はタイプにより異なります。</p>
           </div>
         </li>
         <li>
@@ -213,7 +212,7 @@
         <li>
           <p class="tit-img"><span>留守中でも荷物を受け取れる</span>宅配ボックス（着荷表示機能付）</p>
           <div class="lead-box">
-          <p class="lead">留守中に届いた荷物を、24時間いつでも受け取ることができ他、宅配物の発送やクリーニングの依頼が行えます。宅配物発送料金・クリーニング料金はクレジットカードで決済することも可能。また、留守中に届いた荷物は住戸内のインターホン親機で着荷表示により確認できます。</p>
+          <p class="lead">留守中に届いた荷物を、24時間いつでも受け取ることができる他、宅配物の発送やクリーニングの依頼が行えます。宅配物発送料金・クリーニング料金はクレジットカードで決済することも可能。また、留守中に届いた荷物は住戸内のインターホン親機で着荷表示により確認できます。</p>
           <div class="image">
             <img src="./images/equipment05/img15.jpg" alt="" class=""><p class="annotation bt10 gothic">参考写真2</p>
           </div>

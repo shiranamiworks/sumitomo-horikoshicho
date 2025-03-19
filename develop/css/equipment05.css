@@ -46,10 +46,14 @@
   left: 30%;
 }
 .equipment05 .sections .annotation.left.left01 {
-  left: 15%;
+  left: 0;
+  text-align: left;
 }
 .equipment05 .sections .annotation.left.left02 {
   left: 35%;
+}
+.equipment05 .sections .annotation.left.left03 {
+  left: 0;
 }
 .equipment05 .sections .annotation.bt10 {
   bottom: 10px;
@@ -144,10 +148,9 @@
     font-size: 13px;
   }
   .equipment05 .sections .annotation.left.left01 {
-    left: 0;
-  }
-  .equipment05 .sections .annotation.bt-25 {
-    bottom: -25px;
+    right: 0;
+    text-align: right;
+    bottom: 50%;
   }
   .equipment05 .sec01 {
     margin-top: 40px;
