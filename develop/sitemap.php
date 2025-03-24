@@ -28,11 +28,11 @@
 	<li class="private"><a href="private.html">室内空間</a></li>
 	<!--li class="plan"><a href="/kansai/horikoshicho/list.php" target="_blank">間取り</a></li-->
 	<li class="plan">間取り</li>
-	<!--li class="equipment"><span>設備・仕様<br />
-	（ <a href="equipment_01.html">キッチン</a> ／ <a href="equipment_02.html">サニタリー</a> ／ <a href="equipment_03.html">健康・エコ・省エネ</a> ／ <a href="equipment_04.html">収納・快適仕様</a> ／ <a href="equipment_05.html">ユニバーサルデザイン・マルチメディア</a> ）</span></li-->
+	<li class="equipment"><span>設備・仕様<br />
+	（ <a href="equipment01.html">キッチン・サニタリー</a> ／ <a href="equipment02.html">健康・エコ・省エネ</a> ／ <a href="equipment03.html">収納</a> ／ <a href="equipment04.html">マルチメディア</a> ／ <a href="equipment05.html">快適提案</a> ）</span></li>
 	<li class="equipment">設備・仕様</li>
-	<!--li class="structure"><span>構造・防災
-	（ <a href="structure_01.html">基本構造</a> ／ <a href="structure_02.html">セキュリティ</a> ／ <a href="structure_03.html">防災対策</a> ）</span></li-->
+	<li class="structure"><span>構造・防災
+	（ <a href="structure01.html">基本構造</a> ／ <a href="structure02.html">セキュリティ</a> ／ <a href="structure03.html">防災対策</a> ）</span></li>
 	<li class="structure">構造・防災</li>
 	<li class="location"><span>ロケーション<br />
 	（ <a href="location01.html">快適性溢れる先進の都市機能</a> ／ <a href="location02.html">緑に彩られた歴史と文教の地</a>／ <a href="location03.html">ライフインフォメーション</a> ）</span></li>
