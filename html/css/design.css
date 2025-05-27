@@ -100,6 +100,19 @@
 #design .main-visual {
   position: relative;
   border: none;
+  background: #000;
+}
+#design .top-mv__slide .slick-dots li button {
+  width: 105%;
+  height: 105%;
+  border: 1px solid #fff;
+  background-color: #231815;
+}
+#design .top-mv__slide .slick-dots li.slick-active button {
+  width: 110%;
+  height: 110%;
+  border: 1px solid #fff;
+  background-color: #fff;
 }
 #design .sections .inner {
   margin: 0 auto;
@@ -143,6 +156,15 @@
   }
   #design pc {
     display: none;
+  }
+  #design .top-mv__slide .slick-dots li button {
+    background-color: #231815;
+    border: 1px solid #fff;
+  }
+  #design .top-mv__slide .slick-dots li.slick-active button {
+    width: 110%;
+    height: 110%;
+    background-color: #fff;
   }
   #design .intro {
     text-align: left;

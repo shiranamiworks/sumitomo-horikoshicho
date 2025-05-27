@@ -18,6 +18,8 @@
   }
   .page-annotation {
     font-family: "Noto Sans JP", sans-serif;
+    border-bottom: 1px solid #797979;
+    padding-bottom: 40px;
   }
   sup {
     vertical-align: text-top;
@@ -146,6 +148,11 @@
       box-sizing: border-box;
     }
   } //sec02
+  .label{
+    width: 94%;
+    max-width: 392px;
+    margin: 0 auto 40px;
+  }
   main {
     padding-bottom: 50px;
   }
