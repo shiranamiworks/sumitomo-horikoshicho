@@ -26,8 +26,7 @@
 	<li class="design"><a href="design.html">デザイン</a></li>
 	<li class="public"><a href="public.html">共用空間</a></li>
 	<li class="private"><a href="private.html">室内空間</a></li>
-	<!--li class="plan"><a href="/kansai/horikoshicho/list.php" target="_blank">間取り</a></li-->
-	<li class="plan">間取り</li>
+	<li class="plan"><a href="https://www.sumitomo-rd-mansion.jp/kansai/horikoshicho/list.php" target="_blank">間取り</a></li>
 	<li class="equipment"><span>設備・仕様<br />
 	（ <a href="equipment01.html">キッチン・サニタリー</a> ／ <a href="equipment02.html">健康・エコ・省エネ</a> ／ <a href="equipment03.html">収納</a> ／ <a href="equipment04.html">マルチメディア</a> ／ <a href="equipment05.html">快適提案</a> ）</span></li>
 	<li class="structure"><span>構造・防災
