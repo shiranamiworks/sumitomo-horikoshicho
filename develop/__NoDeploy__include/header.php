@@ -168,7 +168,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
             <li><a href="javascript:outline();">•¨ŒŠT—v</a></li>
           </ul>
           <div class="header-sns">
-            <a href="https://x.com/CH_horikoshicho" target="_blank"><img src="./images/common/icn_x_blk.png" alt="X"></a>
+            <!-- <a href="https://x.com/CH_horikoshicho" target="_blank"><img src="./images/common/icn_x_blk.png" alt="X"></a> -->
             <a href="https://www.instagram.com/ch_horikoshicho/?hl=ja" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
           </div>
         </div>
@@ -195,7 +195,7 @@ $folder_name = $site_setting["area"]."/".$site_setting["prop"]."/";
       </ul>
     </nav>
     <div class="sp-menu-sns d-flex justify-content-center align-items-center">
-      <a href="https://x.com/CH_horikoshicho" target="_blank"><img src="./images/common/icn_x.png" alt="Twitter"></a>
+      <!-- <a href="https://x.com/CH_horikoshicho" target="_blank"><img src="./images/common/icn_x.png" alt="Twitter"></a> -->
        <a href="https://www.instagram.com/ch_horikoshicho/?hl=ja" target="_blank"><img src="./images/common/icn_instagram.png" alt="Instagram"></a>
     </div>
   </div><!--//sp-menu -->
