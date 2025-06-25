@@ -60,7 +60,7 @@
       <img src="./images/public/img01.png" alt="" class="">
       <p class="annotation white">敷地配置概念図</p>
       </div>
-      <p class="point">●歩行者に配慮した歩車分離の動線<br>●風雨をしのぎ、防犯にも備えた屋内自転車置場<br>●24時間ゴミ出しが可能な屋内ゴミ置場</p>
+      <p class="point">●歩行者に配慮した歩車分離の動線<br>●風雨をしのぎ、防犯にも備えた屋内自転車置場<br>●24時間ゴミ出しが可能な屋内ゴミ置場<span>※粗大ゴミは除きます。</span></p>
     </div><!-- images -->
     <p class="txt">景観を優しく彩る植栽計画。</p>
     <ul class="list">
