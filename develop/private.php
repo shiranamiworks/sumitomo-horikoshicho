@@ -46,7 +46,7 @@
 
   <section class="sec01 sections clearfix">
     <div class="inner">
-      <p class="tit">南、東の二面道路に接した角地のポジション。</p>
+      <!-- <p class="tit">南、東の二面道路に接した角地のポジション。</p> -->
       <div class="image">
       <img src="./images/private/sec01.png" alt="" class="">
       <p class="annotation">敷地配置・4&#x301c;15階平面図概念イラスト</p>
